@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #e9e1d5;
+}
+
+/* HEADER */
+header {
+    background: #1d428a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    height: 100%;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    background: url('https://images.unsplash.com/photo-1519861531473-9200262188bf') center/cover;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+/* CONTENT */
+.content {
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+}
+
+.text {
+    width: 40%;
+}
+
+.text iframe {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.images {
+    width: 60%;
+}
+
+.images img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.grid {
+    display: flex;
+    gap: 10px;
+}
+
+.grid img {
+    width: 33%;
+}
+
+/* RULES */
+.rules {
+    text-align: center;
+    padding: 30px;
+}
+
+.rule-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.rule {
+    background: #6fbf73;
+    padding: 20px;
+    border-radius: 40px;
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    background: #1d428a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
